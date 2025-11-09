@@ -1216,6 +1216,7 @@ body {
 
 .product-grid {
   display: grid;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
   grid-template-columns: 1fr 1fr;
   gap: 2rem;
 }
